@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 750px;
+    height: 550px;
+    border-radius: 10px;
+    position: relative;left: 15rem;top: 3rem;
+    background-color: rgba(255, 239, 217, 0.146);
+
+}
+.primero{
+    height: 360px;
+    width: 300px;
+    position: absolute;
+}
+.segundo{
+    height: 360px;
+    width: 300px;
+    position: absolute;
+    float: right;
+    margin-left: 400px;
+}
+.datos{
+    margin-top: 10%;
+    margin-left: 7%;
+}
+.peso{
+    margin: 20px 10px 10px;
+}
+.altura{
+    margin: 20px 10px 10px;
+
+}
+.calcular{
+    margin: 20px 10px 10px;
+    width: 80px;
+    height: 30px;
+    background-color: rgba(14, 250, 159, 0.526);
+    border-radius: 10px;
+    border: 0px;
+}
+.reiniciar{
+    margin: 20px 10px 10px;
+    width: 80px;
+    height: 30px;
+    background-color: rgba(38, 88, 253, 0.492);
+    border-radius: 10px;
+    border: 0px;
+
+}
+.t{
+    text-align: center;
+}
+.mostrarDatos{
+    width: 90px;
+    height: 90px;
+    border: 1px black solid;
+    margin: 20px 10px 10px;
+    background-color: white;
+}
+#t2{
+    position: relative;top: 10px;
+}
+
+.img{
+position: relative;right: 5rem;top: 4rem;
+}
+
+.icon1{
+    width: 350px;
+    height: 300px;
+position: relative;top: 10rem;
+}
+
+.icon2{
+    width: 350px;
+    height: 300px;
+position: relative;top: 10rem;left: 36rem;
+}
+body{
+    background: url(https://c8.alamy.com/compes/2jctmm6/ilustracion-vectorial-persona-con-peso-normal-y-hombre-obeso-parado-cerca-de-la-escala-del-imc-2jctmm6.jpg)no-repeat center center fixed;
+
+}
