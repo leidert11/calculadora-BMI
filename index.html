@@ -1,12 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-co">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>IMC</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+
+
+    <div class="container">
+<h1 class="t">calculadora IMC</h1>
+<div class="primero">
+    <div class="datos">
+    <h2>peso</h2>
+    <input type="number" class="peso" id="peso">
+    <h2>altura</h2>
+    <input type="number" class="altura" id="altura"><br>
+    </div>
+    <div class="botones">
+    <button class="calcular" id="calcular">calcular</button><br>
+    <button class="reiniciar" id="reinicio">reiniciar</button>
+    </div>
+</div>
+    <div class="segundo">
+<h1 id="t2">su IMC (indice de masa corporal)</h1>
+
+<div class='mostrarDatos' id="mostrarDatos"></div>
+
+<div class="img">
+    <img src="https://fisiolution.com/wp-content/uploads/2022/02/Indice-de-Masa-Corporal-IMC.png" alt="tabla de indice de masa corporal"
+    id="tabla">
+</div>
+
+</div>
+</div>
+
+
+    <script src="./main.js"></script>
+
 </body>
 </html>
